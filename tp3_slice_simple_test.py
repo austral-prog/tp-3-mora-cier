@@ -16,3 +16,6 @@ class TP3SliceSimpleTestCases(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+    txt = input ("Escribe un texto o un numero de mas de 3 decimales: ")
+    print(txt[5: :2])
